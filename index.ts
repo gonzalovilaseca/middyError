@@ -2,7 +2,7 @@ import middy from '@middy/core'
 import httpHeaderNormalizer from '@middy/http-header-normalizer'
 import httpJsonBodyParser from '@middy/http-json-body-parser'
 
-const lambdaHandler = (event, context) => {
+const lambdaHandler = () => {
   return {}
 }
 
